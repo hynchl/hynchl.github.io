@@ -141,6 +141,7 @@ function initializeSound() {
     setInterval(playTick, 60000/(tempo*6));
     setInterval(playDistribution, 60000/(tempo*3));
     initialized = true;
+    alert("good");
   }
 }
 
