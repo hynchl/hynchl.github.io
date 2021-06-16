@@ -24,7 +24,18 @@ function setup() {
   let cnv = createCanvas(W,H);
   cnv.mouseClicked(initializeSound)
   pixelDensity(1);
-  capture = createCapture(VIDEO);
+  var constraints = {
+    audio: false,
+    video: {
+      facingMode: {
+        exact: "environment"
+      }
+    }    
+    //video: {
+      //facingMode: "user"
+    //} 
+  };
+  capture = createCapture(constraints);
   capture.hide(); 
 }
 
