@@ -81,7 +81,9 @@ function draw() {
   drawHistLine(_s, strokeColor=[255,0,0])
   drawHistLine(_l, strokeColor=[255,255,255])
 
-  updateAmbient();
+  if (initialized){
+    updateAmbient();
+  }
 
   playDistributionGain = 1 - arr.mean(saturation);
 
