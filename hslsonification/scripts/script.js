@@ -131,6 +131,8 @@ let initialized = false;
 function initializeSound() {
   if (!initialized) {
     initAmbient();
+    setInterval(playTick, 60000/(tempo*6));
+    setInterval(playDistribution, 60000/(tempo*3));
     initialized = true;
   }
 }
@@ -182,8 +184,7 @@ function updateAmbient() {
 //play
 let tempo = 48;
 // setInterval(playTrackBass, 60000/tempo);
-setInterval(playTick, 60000/(tempo*6));
-setInterval(playDistribution, 60000/(tempo*3));
+
 
 
 ///// BACKGROUND TRACK
