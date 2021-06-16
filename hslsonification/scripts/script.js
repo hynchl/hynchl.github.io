@@ -338,7 +338,7 @@ function playDistribution(){
   source.connect(output);
   delay.connect(output);
 
-  output.gain.value = 0.20 * playDistributionGain;
+  output.gain.value = 0.20 * playDistributionGain * (0.5 - Math.abs(0.5 - arr.mean(lightness)));
   output.connect(main);
   source.start();
 }
