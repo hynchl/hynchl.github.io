@@ -160,16 +160,16 @@ function initializeSound() {
 
 ///// BACKGROUND NOISE AFFTECTED BY LIGHTNESS
 const backgroundTrack = {
-  source:audioContext.createBufferSource(),
-  filter1: audioContext.createBiquadFilter(),
-  filter2: audioContext.createBiquadFilter(),
-  output: audioContext.createGain()
 }
 
 function initAmbient() {
-  
+  backgroundTrack.source=audioContext.createBufferSource(),
+  backgroundTrack.filter1= audioContext.createBiquadFilter(),
+  backgroundTrack.filter2= audioContext.createBiquadFilter(),
+  backgroundTrack.output= audioContext.createGain()
+
   // generate noises
-  backgroundTrack.source.buffer = GetWhiteNoise(1);;
+  backgroundTrack.source.buffer = GetWhiteNoise(1);
   backgroundTrack.source.loop = true;
   backgroundTrack.source.connect(backgroundTrack.filter1);
   backgroundTrack.source.start();

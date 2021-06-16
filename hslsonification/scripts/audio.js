@@ -30,9 +30,9 @@
 // let main = audioContext.createGain();
 // main.gain.value = 0.1;
 // main.connect(audioContext.destination);
-let filter = new BiquadFilterNode(audioContext, {type:'lowpass'});
-let cutoff = 350;
-let hueFrequency = 200;
+// let filter = new BiquadFilterNode(audioContext, {type:'lowpass'});
+// let cutoff = 350;
+// let hueFrequency = 200;
 
 
 function initialize() {
