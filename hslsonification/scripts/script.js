@@ -20,10 +20,16 @@ let hueHist = new Array(bins);
 let saturationHist = new Array(bins);
 let lightnessHist = new Array(bins);
 
+function isMobile() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 function setup() {
   let cnv = createCanvas(W,H);
   cnv.mouseClicked(initializeSound)
   pixelDensity(1);
+
+
   var constraints = {
     audio: false,
     video: {
@@ -31,11 +37,12 @@ function setup() {
         exact: "environment"
       }
     }    
-    //video: {
-      //facingMode: "user"
-    //} 
   };
-  capture = createCapture(constraints);
+  if (isMobile()) {
+    capture = createCapture(constraints);
+  }else{
+    capture = createCapture(VIDEO);
+  }
   capture.hide(); 
 }
 
