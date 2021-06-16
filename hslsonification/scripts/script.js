@@ -135,13 +135,22 @@ function RGB2HSL(r, g, b) {
 }
 
 let initialized = false;
+let audioContext= null;
+let main = null;
+const channels = 2;
 function initializeSound() {
   if (!initialized) {
+    
+    audioContext= new AudioContext();
+    main = audioContext.createGain();
+    main.gain.value = 0.1;
+    main.connect(audioContext.destination);
+
     initAmbient();
     setInterval(playTick, 60000/(tempo*6));
     setInterval(playDistribution, 60000/(tempo*3));
     initialized = true;
-    alert("good");
+    alert("version");
   }
 }
 

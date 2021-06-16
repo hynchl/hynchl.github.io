@@ -25,11 +25,11 @@
 
 
 // making audio context and master gain
-let audioContext= new AudioContext();
-const channels = 2;
-let main = audioContext.createGain();
-main.gain.value = 0.1;
-main.connect(audioContext.destination);
+
+
+// let main = audioContext.createGain();
+// main.gain.value = 0.1;
+// main.connect(audioContext.destination);
 let filter = new BiquadFilterNode(audioContext, {type:'lowpass'});
 let cutoff = 350;
 let hueFrequency = 200;
