@@ -146,11 +146,15 @@ function initializeSound() {
     main.gain.value = 0.1;
     main.connect(audioContext.destination);
 
+    let testOsc = audioContext.createOscillator();
+    testOsc.frequency.value = 440;
+    testOsc.connect(main);
+
     initAmbient();
     setInterval(playTick, 60000/(tempo*6));
     setInterval(playDistribution, 60000/(tempo*3));
     initialized = true;
-    alert("version");
+    alert("mobile sound problem1");
   }
 }
 
