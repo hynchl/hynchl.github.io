@@ -202,7 +202,7 @@ function GetSquareWave(frequency, duration, pulse=0.5) {
   return buffer;
 }
 
-function GetTriangleWave(frequency, duration) {
+function GetSawtoothWave(frequency, duration) {
   // frequency
   // duration(sec)
 
