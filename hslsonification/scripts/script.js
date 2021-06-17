@@ -44,6 +44,7 @@ function setup() {
     capture = createCapture(VIDEO);
   }
   capture.hide(); 
+  alert("Tap to Play!");
 }
 
 function draw() {
@@ -156,7 +157,7 @@ function initializeSound() {
     setInterval(playTick, 60000/(tempo*6));
     setInterval(playDistribution, 60000/(tempo*3));
     initialized = true;
-    alert("mobile sound problem1");
+    alert("Play Colors!");
   }
 }
 
