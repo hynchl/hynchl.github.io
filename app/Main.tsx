@@ -519,7 +519,9 @@ export default function Home({
         <h1 className="sticky top-0 w-14 pt-2 font-black xl:w-28">{siteMetadata.title} </h1>
         <p>{siteMetadata.description}</p>
         <p>
-          <Link href="https://docs.google.com/document/d/1WFXyfm1MaXvMnvt22WxjTEFSI5Q9_H6R_vDjJCU6Yyw/edit?usp=sharing">[CV]</Link>
+          <Link href="https://docs.google.com/document/d/1WFXyfm1MaXvMnvt22WxjTEFSI5Q9_H6R_vDjJCU6Yyw/edit?usp=sharing">
+            [CV]
+          </Link>
         </p>
 
         <div className="pl-20 xl:pl-32">
