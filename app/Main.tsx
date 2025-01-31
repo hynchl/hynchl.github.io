@@ -141,7 +141,7 @@ function PosterDemoItem(post) {
                 </p>
               </div>
 
-              <BodyText>{summary}</BodyText>
+              {/* <BodyText>{summary}</BodyText> */}
             </div>
             {/* <div className="text-base font-medium leading-6">
               <Link
@@ -188,7 +188,7 @@ function PresentationItem(post) {
                   ))}
                 </div> */}
               </div>
-              <BodyText>{summary}</BodyText>
+              {/* <BodyText>{summary}</BodyText> */}
             </div>
             {/* <div className="text-base font-medium leading-6">
               <Link
@@ -256,7 +256,7 @@ function UnpublishedItem(post) {
                   ) : null}
                 </p>
               </div>
-              <BodyText>{summary}</BodyText>
+              {/* <BodyText>{summary}</BodyText> */}
             </div>
             {/* <div className="text-base font-medium leading-6">
               <Link
@@ -346,7 +346,7 @@ function ArtworkItem(post) {
                   ))}
                 </div> */}
               </div>
-              <BodyText>{summary}</BodyText>
+              {/* <BodyText>{summary}</BodyText> */}
             </div>
             {/* <div className="text-base font-medium leading-6">
               <Link
@@ -486,7 +486,7 @@ function OtherItem(post) {
                   ) : null}
                 </p>
               </div>
-              <BodyText>{summary}</BodyText>
+              {/* <BodyText>{summary}</BodyText> */}
             </div>
             {/* <div className="text-base font-medium leading-6">
               <Link
