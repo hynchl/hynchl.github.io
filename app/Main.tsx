@@ -591,7 +591,7 @@ export default function Home({
 
         <div>
           <div className="h-64"></div>
-          <div className="sticky bottom-4">
+          <div className="sticky bottom-8">
             <h1 className="w-14 pt-2 font-black xl:w-28">contact </h1>
             <ul className="">
               <li>
