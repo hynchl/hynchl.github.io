@@ -3,6 +3,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 // import NewsletterForm from 'pliny/ui/NewsletterForm'
+import News from './News'
 
 const MAX_DISPLAY = 10000
 
@@ -523,6 +524,11 @@ export default function Home({
             [CV]
           </Link>
         </p>
+
+        <div className="pl-20 xl:pl-32">
+          <SectionHeader> News </SectionHeader>
+          <News />
+        </div>
 
         <div className="pl-20 xl:pl-32">
           <SectionHeader> Papers </SectionHeader>
