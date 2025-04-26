@@ -525,8 +525,8 @@ export default function Home({
           </Link>
         </p>
 
-        <div className="pl-20 xl:pl-32">
-          <SectionHeader> News </SectionHeader>
+        <div className="pr-20 xl:pr-32 py-12 dark:text-yellow-300">
+          <h2 className=" top-0 pt-1 text-xl">News</h2>
           <News />
         </div>
 
@@ -605,9 +605,9 @@ export default function Home({
                 mail: <a href="mailto:hyunchul.kim@kaist.ac.kr">hyunchul.kim@kaist.ac.kr</a> or{' '}
                 <a href="mailto:mail@hyunchul.kim">mail@hyunchul.kim </a>
               </li>
-              <li> linkedin: www.linkedin.com/in/hynchl </li>
-              <li> instagram: hynchl </li>
-              <li> twitter: kimhynchl </li>
+              <li> <a href="https://www.linkedin.com/in/hynchl">linkedin: www.linkedin.com/in/hynchl </a> </li>
+              <li> <a href="https://instagram.com/hynchl"> instagram: hynchl </a> </li>
+              <li> <a href="https://x.com/kimhynchl"> twitter: kimhynchl </a> </li>
             </ul>
           </div>
         </div>
