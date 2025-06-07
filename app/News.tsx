@@ -11,6 +11,9 @@ export default function News() {
         • Gave a talk on large language models and online communities at Forkingroom 2025: Left Tech
         (April 16, 2025)
       </ul>
+      <ul className="pb-2">
+        • Ran the <strong>Seoul Marathon</strong> (March 16, 2025) and finished in 3:45:46.
+      </ul>
     </>
   )
 }
