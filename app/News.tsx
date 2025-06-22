@@ -2,7 +2,10 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
-        • Attending Summer School on{' '}
+        • Delivering PhD proposal presentation at 10 a.m. on August 7 (location to be determined)
+      </ul>
+      <ul className="pb-2">
+        • Attended Summer School on{' '}
         <a href="https://cixschool2025.isir.upmc.fr/">Computational Interaction Summer School</a> in
         Paris, France!
       </ul>
