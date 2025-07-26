@@ -2,7 +2,8 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
-        • Delivering PhD proposal presentation at 10 a.m. on August 7 (location to be determined)
+        • Will deliver my PhD proposal presentation at 10 a.m. on August 7 in Room 2332, Laughlin
+        Hall (N5, 3rd Floor), KAIST.
       </ul>
       <ul className="pb-2">
         • Attended Summer School on{' '}
