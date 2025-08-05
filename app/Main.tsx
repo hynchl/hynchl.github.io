@@ -525,7 +525,7 @@ export default function Home({
           </Link>
         </p>
 
-        <div className="py-12 pr-20 dark:text-yellow-300 xl:pr-32">
+        <div className="py-12 pr-12 dark:text-yellow-300 xl:pr-32">
           <h2 className=" top-0 pt-1 text-xl">News</h2>
           <News />
         </div>
