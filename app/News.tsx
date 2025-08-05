@@ -2,8 +2,9 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
-        • Will deliver my PhD proposal presentation at 10 a.m. on August 7 in Room 2332, Laughlin
-        Hall (N5, 3rd Floor), KAIST.
+        • My PhD proposal presentation will take place at 10 a.m. (KST) on August 7 in Room 2332,
+        Laughlin Hall (N5, 3rd Floor), KAIST. Remote attendance is available via{' '}
+        <a href="https://meet.google.com/czn-etan-qrb">Google Meet</a>.
       </ul>
       <ul className="pb-2">
         • Attended Summer School on{' '}
