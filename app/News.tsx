@@ -4,7 +4,7 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
-        • Presenting at ISMAR 2025 (October 8–11, 2025) in Daejeon, South Korea — both in the
+        • Presented at ISMAR 2025 (October 8–11, 2025) in Daejeon, South Korea — both in the
         Doctoral Consortium and Poster sessions.
       </ul>
       <ul className="pb-2">
