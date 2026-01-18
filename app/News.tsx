@@ -4,11 +4,16 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
+        • Wiil present at the Annual Conference of the KSCBP 2025 (January 21–23, 2026) on my
+        ongoing research on embodied conversation agents.
+      </ul>
+      <ul className="pb-2">• ran 1,761 km in 2025.</ul>
+      <ul className="pb-2">
         • Presented at ISMAR 2025 (October 8–11, 2025) in Daejeon, South Korea — both in the
         Doctoral Consortium and Poster sessions.
       </ul>
       <ul className="pb-2">
-        • Attended <strong>UIST 2025</strong> (September 28–October 1, 2025) in Busan, South Korea.
+        • Attended UIST 2025 (September 28–October 1, 2025) in Busan, South Korea.
       </ul>
       <ul className="pb-2">• Completed my PhD proposal presentation (August 7, 2025).</ul>
       <ul className="pb-2">
