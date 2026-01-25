@@ -4,8 +4,13 @@ export default function News() {
   return (
     <>
       <ul className="pb-2 pt-6">
-        • Wiil present at the Annual Conference of the KSCBP 2025 (January 21–23, 2026) on my
-        ongoing research on embodied conversation agents.
+        • Will demonstrate <i>Situately</i>, an embodied conversational agent system featuring
+        LLM-powered nonverbal behavior control, at IEEE VR (March 21-25, 2026) in Daegu, South
+        Korea.
+      </ul>
+      <ul className="pb-2">
+        • Presented at the Annual Conference of the KSCBP 2025 (January 21–23, 2026) on my ongoing
+        research on embodied conversation agents.
       </ul>
       <ul className="pb-2">• ran 1,761 km in 2025.</ul>
       <ul className="pb-2">
