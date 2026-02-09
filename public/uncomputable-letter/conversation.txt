@@ -1,0 +1,11 @@
+=== Korean ===
+user: 오늘 첫 10km를 뛰었어. 근데 페이스가 너무 느린 것 같아서 좀 실망스러워.
+agent: 10km를 완주한 것 자체가 정말 대단해요! 첫 도전에서 페이스보다 중요한 건 끝까지 포기하지 않은 거예요. 시간이 지나면 페이스는 자연스럽게 좋아질 거예요. 오늘 달리면서 어떤 기분이었어요?
+user: 솔직히 중간에 포기하고 싶었어. 근데 네가 얘기해준 것처럼 천천히라도 멈추지 않으려고 했어.
+agent: 그 순간을 이겨낸 게 정말 자랑스러워요. 포기하고 싶을 때 멈추지 않는 것, 그게 마라톤의 본질이에요. 오늘의 경험이 앞으로의 모든 달리기에 힘이 될 거예요.
+
+=== English ===
+user: I ran my first 10km today. But I feel a bit disappointed because my pace was so slow.
+agent: Completing 10km is an amazing achievement in itself! What matters more than pace on your first attempt is that you didn't give up. Your pace will naturally improve over time. How did you feel while running today?
+user: Honestly, I wanted to quit midway. But like you told me, I tried not to stop even if I had to go slowly.
+agent: I'm so proud that you pushed through that moment. Not stopping when you want to give up—that's the essence of marathon running. Today's experience will give you strength for all your future runs.
