@@ -3,10 +3,6 @@ import Link from '@/components/Link'
 export default function News() {
   return (
     <>
-      <ul className="pb-2 pt-6">
-        • Currently writing three papers, developing two research ideas, preparing a demo and two
-        artworks, resuming marathon training, and exploring baking (February 19, 2026).
-      </ul>
       <ul className="pb-2">
         • Will demonstrate <i>Situately</i>, an embodied conversational agent system featuring
         LLM-powered nonverbal behavior control, at IEEE VR (March 21-25, 2026) in Daegu, South
