@@ -5,8 +5,11 @@ export default function News() {
     <>
       <ul className="pb-2">
         • Will demonstrate <i>Situately</i>, an embodied conversational agent system featuring
-        LLM-powered nonverbal behavior control, at IEEE VR (March 21-25, 2026) in Daegu, South
+        LLM-powered nonverbal behavior control, at IEEE VR (March 23-25, 2026) in Daegu, South
         Korea.
+      </ul>
+      <ul className="pb-2">
+        • Ran the <strong>Seoul Marathon</strong> (March 15, 2026) and finished in 3:49:56.
       </ul>
       <ul className="pb-2">
         • Presented at the Annual Conference of the KSCBP 2025 (January 21–23, 2026) on my ongoing
