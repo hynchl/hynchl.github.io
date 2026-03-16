@@ -9,6 +9,10 @@ export default function News() {
         Korea.
       </ul>
       <ul className="pb-2">
+        • Will exhibit <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the
+        collective Palimpsest Technology at ForkingRoom (April 15–19, 2026) in Seoul, South Korea.
+      </ul>
+      <ul className="pb-2">
         • Ran the <strong>Seoul Marathon</strong> (March 15, 2026) and finished in 3:49:56.
       </ul>
       <ul className="pb-2">
