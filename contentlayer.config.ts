@@ -114,6 +114,7 @@ export const Paper = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    firstAuthor: { type: 'boolean', default: false },
   },
   computedFields: {
     ...computedFields,
@@ -260,7 +261,7 @@ export const Artworks = defineDocumentType(() => ({
     collaboration: { type: 'list', of: { type: 'string' } },
     exhibition: { type: 'string', required: true },
     city: { type: 'string', required: true },
-    gallery: { type: 'string', },
+    gallery: { type: 'string' },
     start: { type: 'date', required: true },
     end: { type: 'date', required: true },
     video: { type: 'string' },
@@ -429,7 +430,17 @@ export const Authors = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Paper, PosterDemo, Presentations, Unpublished, Artworks, Technicals, Others, Blog, Authors],
+  documentTypes: [
+    Paper,
+    PosterDemo,
+    Presentations,
+    Unpublished,
+    Artworks,
+    Technicals,
+    Others,
+    Blog,
+    Authors,
+  ],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [

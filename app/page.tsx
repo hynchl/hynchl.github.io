@@ -12,7 +12,9 @@ import Main from './Main'
 
 export default async function Page() {
   const sortedPapers = sortPosts(allPapers)
-  const papers = allCoreContent(sortedPapers)
+  const firstAuthorPapers = allCoreContent(sortedPapers.filter((p) => p.firstAuthor))
+  const otherPapers = allCoreContent(sortedPapers.filter((p) => !p.firstAuthor))
+  const papers = [...firstAuthorPapers, ...otherPapers]
 
   const sortedPosterDemos = sortPosts(allPosterDemos)
   const posterDemos = allCoreContent(sortedPosterDemos)
