@@ -12,6 +12,21 @@ export default function News() {
         collective Palimpsest Technology at ForkingRoom (April 15–19, 2026) in Seoul, South Korea.
       </ul>
       <ul className="pb-2">
+        • <i>WriteHere</i>, led by Jaeryung Chung, a project I contributed to as an Apple Vision Pro
+        application developer, won the iF Design Award 2026.{' '}
+        <a href="https://creativitysupport.github.io/">[project page]</a>
+      </ul>
+      <ul className="pb-2">
+        • Participated in the Uncomputable workshop led by Taeyoon Choi at Forever Gallery. We read
+        "Uncomputable: Play and Politics in the Long Digital Age" and created a piece of artwork,{' '}
+        <i>Dear Sam</i>, a letter to Sam Altman (OpenAI CEO).
+        <br />
+        <a href="https://forevergallery.org/foreverworkshop/">[online exhibition]</a>{' '}
+        <a href="https://hyunchul.kim/dear-sam/index.html">
+          [<i>Dear Sam</i>]
+        </a>
+      </ul>
+      <ul className="pb-2">
         • demonstrated <i>Situately</i>, an embodied conversational agent system featuring
         LLM-powered nonverbal behavior control, with amazing collaborators at IEEE VR (March 23-25,
         2026) in Daegu, South Korea.
