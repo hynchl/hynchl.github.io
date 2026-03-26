@@ -1,6 +1,14 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
+
+function NewsLink({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <a href={href} className="rounded-sm text-yellow-200 hover:bg-yellow-400 hover:text-black">
+      {children}
+    </a>
+  )
+}
 
 export default function News() {
   const [expanded, setExpanded] = useState(false)
@@ -9,27 +17,36 @@ export default function News() {
     <>
       <ul className="pb-2">
         • Will exhibit <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the
-        collective Palimpsest Technology at ForkingRoom (April 15–19, 2026) in Seoul, South Korea.
+        collective <NewsLink href="https://palimpsest.technology">Palimpsest Technology</NewsLink>{' '}
+        at <NewsLink href="https://forkingroom.kr">ForkingRoom</NewsLink> (April 15–19, 2026) in
+        Seoul, South Korea.
       </ul>
       <ul className="pb-2">
-        • <i>WriteHere</i>, led by Jaeryung Chung, a project I contributed to as an Apple Vision Pro
-        application developer, won the iF Design Award 2026.{' '}
-        <a href="https://creativitysupport.github.io/">[project page]</a>
+        • Demonstrated <i>Situately</i>, an embodied conversational agent system featuring
+        LLM-powered nonverbal behavior control, with Kwangbin Lee, Jungsoo Lee, Sihyun Jeong, Prof.
+        Sung-Hee Lee, and Porf. Jeongmi Lee at IEEE VR (March 23–25, 2026) in Daegu, South Korea.
       </ul>
       <ul className="pb-2">
         • Participated in the Uncomputable workshop led by Taeyoon Choi at Forever Gallery. We read
         "Uncomputable: Play and Politics in the Long Digital Age" and created a piece of artwork,{' '}
         <i>Dear Sam</i>, a letter to Sam Altman (OpenAI CEO).
         <br />
-        <a href="https://forevergallery.org/foreverworkshop/">[online exhibition]</a>{' '}
-        <a href="https://hyunchul.kim/dear-sam/index.html">
-          [<i>Dear Sam</i>]
-        </a>
+        <span className="ml-4">
+          <NewsLink href="https://forevergallery.org/foreverworkshop/">
+            [online exhibition]
+          </NewsLink>
+          ,{' '}
+          <NewsLink href="https://hyunchul.kim/dear-sam/index.html">
+            [<i>Dear Sam</i>]
+          </NewsLink>
+        </span>
       </ul>
       <ul className="pb-2">
-        • Demonstrated <i>Situately</i>, an embodied conversational agent system featuring
-        LLM-powered nonverbal behavior control, with Kwangbin Lee, Jungsoo Lee, Sihyun Jeong, Prof.
-        Sung-Hee Lee, and Porf. Jeongmi Lee at IEEE VR (March 23–25, 2026) in Daegu, South Korea.
+        • <i>WriteHere</i>, led by Jaeryung Chung, a project I contributed to as an Apple Vision Pro
+        application developer, won the iF Design Award 2026! <br />
+        <span className="ml-4">
+          <NewsLink href="https://creativitysupport.github.io/">[project page]</NewsLink>
+        </span>
       </ul>
       <ul className="pb-2">
         • Ran the <strong>Seoul Marathon</strong> (March 15, 2026) and finished in 3:49:56.
@@ -51,9 +68,9 @@ export default function News() {
           <ul className="pb-2">• Completed my PhD proposal presentation (August 7, 2025).</ul>
           <ul className="pb-2">
             • Attended Summer School on{' '}
-            <a href="https://cixschool2025.isir.upmc.fr/">
+            <NewsLink href="https://cixschool2025.isir.upmc.fr/">
               Computational interaction summer school
-            </a>{' '}
+            </NewsLink>{' '}
             in Paris, France!
           </ul>
           <ul className="pb-2">
