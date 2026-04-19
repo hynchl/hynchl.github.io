@@ -17,7 +17,7 @@ export default function News() {
     <>
       <ul className="pb-2">• Will defend my dissertation on May 11, 2026</ul>
       <ul className="pb-2">
-        • Exhibiting <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the collective{' '}
+        • Exhibited <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the collective{' '}
         <NewsLink href="https://palimpsest.technology">Palimpsest Technology</NewsLink> at{' '}
         <NewsLink href="https://forkingroom.kr">ForkingRoom</NewsLink> (April 15–19, 2026) in Seoul,
         South Korea.
