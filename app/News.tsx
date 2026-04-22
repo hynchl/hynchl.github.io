@@ -15,7 +15,11 @@ export default function News() {
 
   return (
     <>
-      <ul className="pb-2">• Will defend my dissertation on May 11, 2026</ul>
+      <ul className="pb-2">
+        • Will defend my dissertation,{' '}
+        <i>Behavioral Correlates of Social Connection in Virtual Reality Conversations</i>, on May
+        11, 2026
+      </ul>
       <ul className="pb-2">
         • Exhibited <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the collective{' '}
         <NewsLink href="https://palimpsest.technology">Palimpsest Technology</NewsLink> at{' '}
