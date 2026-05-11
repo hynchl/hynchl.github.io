@@ -16,11 +16,9 @@ export default function News() {
   return (
     <>
       <ul className="pb-2">
-        • Will defend my dissertation,{' '}
+        • Successfully defended my dissertation,{' '}
         <i>Behavioral Correlates of Social Connection in Virtual Reality Conversations</i>, at 4
-        p.m. KST on May 11, 2026 at Room 2332, Wohn Kwangyun Hall (N25), KAIST. The defense will be
-        conducted in Korean. To join online, please{' '}
-        <NewsLink href="https://forms.gle/NeRkXzSDrVPYydnx7">request access here</NewsLink>.
+        p.m. KST on May 11, 2026 at Room 2332, Wohn Kwangyun Hall (N25), KAIST.
       </ul>
       <ul className="pb-2">
         • Exhibited <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the collective{' '}
