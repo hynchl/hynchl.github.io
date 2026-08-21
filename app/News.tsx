@@ -16,9 +16,17 @@ export default function News() {
   return (
     <>
       <ul className="pb-2">
+        • Participated in <i>Lemon</i>, a new work by Kim Heecheon, for his solo exhibition{' '}
+        <NewsLink href="https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1565012&acadmyEeNo=0&evtNo=0&glolangType=KOR">
+          <i>Moles</i>
+        </NewsLink>{' '}
+        at Seoul Museum of Art, Seoseoul (August 20 – November 8, 2026). <i>Cutter 3</i> and{' '}
+        <i>Double Poser</i>, which I also took part in, are on view as well.
+      </ul>
+      <ul className="pb-2">
         • Successfully defended my dissertation,{' '}
-        <i>Behavioral Correlates of Social Connection in Virtual Reality Conversations</i>, at 4
-        p.m. KST on May 11, 2026 at Room 2332, Wohn Kwangyun Hall (N25), KAIST.
+        <i>Behavioral Correlates of Social Connection in Virtual Reality Conversations</i> (May 11,
+        2026).
       </ul>
       <ul className="pb-2">
         • Exhibited <i>Pal Podcast</i> with Yunha Yeo, Bowon Kim, and Jungsoo Lee as the collective{' '}
@@ -29,12 +37,12 @@ export default function News() {
       <ul className="pb-2">
         • Demonstrated <i>Situately</i>, an embodied conversational agent system featuring
         LLM-powered nonverbal behavior control, with Kwangbin Lee, Jungsoo Lee, Sihyun Jeong, Prof.
-        Sung-Hee Lee, and Porf. Jeongmi Lee at IEEE VR (March 23–25, 2026) in Daegu, South Korea.
+        Sung-Hee Lee, and Prof. Jeongmi Lee at IEEE VR (March 23–25, 2026) in Daegu, South Korea.
       </ul>
       <ul className="pb-2">
-        • Participated in the Uncomputable workshop led by Taeyoon Choi at Forever Gallery. We read
-        "Uncomputable: Play and Politics in the Long Digital Age" and created a piece of artwork,{' '}
-        <i>Dear Sam</i>, a letter to Sam Altman (OpenAI CEO).
+        • Participated in the Uncomputable workshop led by Taeyoon Choi at Forever Gallery. We read{' '}
+        <i>Uncomputable: Play and Politics in the Long Digital Age</i> and created a piece of
+        artwork, <i>Dear Sam</i>, a letter to Sam Altman (OpenAI CEO).
         <br />
         <span className="ml-4">
           <NewsLink href="https://forevergallery.org/foreverworkshop/">
@@ -57,12 +65,12 @@ export default function News() {
         • Ran the <strong>Seoul Marathon</strong> (March 15, 2026) and finished in 3:49:56.
       </ul>
       <ul className="pb-2">
-        • Presented at the Annual Conference of the KSCBP 2025 (January 21–23, 2026) on my ongoing
-        research on embodied conversation agents.
+        • Presented at the KSCBP 2025 Annual Conference (January 21–23, 2026) on my ongoing research
+        on embodied conversation agents.
       </ul>
       {expanded && (
         <>
-          <ul className="pb-2">• ran 1,761 km in 2025.</ul>
+          <ul className="pb-2">• Ran 1,761 km in 2025.</ul>
           <ul className="pb-2">
             • Presented at ISMAR 2025 (October 8–11, 2025) in Daejeon, South Korea — both in the
             Doctoral Consortium and Poster sessions.
@@ -83,7 +91,7 @@ export default function News() {
           </ul>
           <ul className="pb-2">
             • Gave a talk on large language models and online communities at Forkingroom 2025: Left
-            Tech (April 16, 2025)
+            Tech (April 16, 2025).
           </ul>
           <ul className="pb-2">
             • Ran the <strong>Seoul Marathon</strong> (March 16, 2025) and finished in 3:45:46.
